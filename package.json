@@ -5,7 +5,8 @@
   "files": [
     "my_wasm_thingy_bg.wasm",
     "my_wasm_thingy.js",
-    "my_wasm_thingy.d.ts"
+    "my_wasm_thingy.d.ts",
+    "snippets"
   ],
   "main": "my_wasm_thingy.js",
   "types": "my_wasm_thingy.d.ts",
