@@ -16,13 +16,13 @@ export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembl
 export interface InitOutput {
     readonly memory: WebAssembly.Memory;
     readonly activate: (a: number, b: number, c: number, d: number) => void;
-    readonly wasm_bindgen__closure__destroy__h0f14dfbd7de359dd: (a: number, b: number) => void;
-    readonly wasm_bindgen__closure__destroy__h9966fcd26fcc81a8: (a: number, b: number) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__h7520b9e358e47da8: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen__convert__closures_____invoke__h334a53a756b879df: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__h334a53a756b879df_1: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__h334a53a756b879df_2: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__hb711407017717c45: (a: number, b: number) => void;
+    readonly wasm_bindgen__closure__destroy__h1333608f92fe01e1: (a: number, b: number) => void;
+    readonly wasm_bindgen__closure__destroy__ha0d3a3f7e7ebf7b8: (a: number, b: number) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__hf60ede254a8638fa: (a: number, b: number, c: any) => [number, number];
+    readonly wasm_bindgen__convert__closures_____invoke__h0baf11a8b35fda89: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h0baf11a8b35fda89_1: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h0baf11a8b35fda89_2: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__hd4d7d284ab991994: (a: number, b: number) => void;
     readonly __wbindgen_malloc: (a: number, b: number) => number;
     readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
     readonly __wbindgen_exn_store: (a: number) => void;
