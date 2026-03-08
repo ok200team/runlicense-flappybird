@@ -17,12 +17,12 @@ export interface InitOutput {
     readonly memory: WebAssembly.Memory;
     readonly activate: (a: number, b: number, c: number, d: number) => void;
     readonly wasm_bindgen__closure__destroy__ha0d3a3f7e7ebf7b8: (a: number, b: number) => void;
-    readonly wasm_bindgen__closure__destroy__h406846795877efe7: (a: number, b: number) => void;
+    readonly wasm_bindgen__closure__destroy__h8ec06901c646b7af: (a: number, b: number) => void;
     readonly wasm_bindgen__closure__destroy__h8fc8786b4abf673e: (a: number, b: number) => void;
     readonly wasm_bindgen__convert__closures_____invoke__hf60ede254a8638fa: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen__convert__closures_____invoke__h1b0dbb7f2042f562: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__h1b0dbb7f2042f562_2: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__h1b0dbb7f2042f562_3: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h318b3015ca75b59d: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h318b3015ca75b59d_2: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h318b3015ca75b59d_3: (a: number, b: number, c: any) => void;
     readonly wasm_bindgen__convert__closures_____invoke__hb26893cad6ad8ded: (a: number, b: number) => void;
     readonly __wbindgen_malloc: (a: number, b: number) => number;
     readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
