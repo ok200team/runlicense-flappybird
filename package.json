@@ -1,7 +1,7 @@
 {
   "name": "my-wasm-thingy",
   "type": "module",
-  "version": "0.1.21",
+  "version": "0.1.22",
   "files": [
     "my_wasm_thingy_bg.wasm",
     "my_wasm_thingy.js",
