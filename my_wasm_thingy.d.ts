@@ -3,27 +3,26 @@
 
 /**
  * Activate the WASM application inside the given container element.
- * Fetches the license at runtime from `runlicense/<namespace>/license.json`
- * (served by the consuming application) and verifies it via the SDK.
+ * The caller must pass the license JSON string directly.
  *   - Valid:   injects a "Get Started..." button. Clicking it opens a
  *              full-screen modal with the game — all created by WASM.
  *   - Invalid: injects an error message.
  */
-export function activate(container_id: string): void;
+export function activate(container_id: string, license_json: string): void;
 
 export type InitInput = RequestInfo | URL | Response | BufferSource | WebAssembly.Module;
 
 export interface InitOutput {
     readonly memory: WebAssembly.Memory;
-    readonly activate: (a: number, b: number) => void;
-    readonly wasm_bindgen__closure__destroy__h3ed56fe3f612d2b8: (a: number, b: number) => void;
+    readonly activate: (a: number, b: number, c: number, d: number) => void;
+    readonly wasm_bindgen__closure__destroy__h971022d46e9a2a8b: (a: number, b: number) => void;
     readonly wasm_bindgen__closure__destroy__h5b569a9b0c99a6ce: (a: number, b: number) => void;
-    readonly wasm_bindgen__closure__destroy__h5d01e1918f83b737: (a: number, b: number) => void;
+    readonly wasm_bindgen__closure__destroy__h43c09e81d8c5e27f: (a: number, b: number) => void;
     readonly wasm_bindgen__convert__closures_____invoke__h26e23bd7929d5711: (a: number, b: number, c: any) => [number, number];
-    readonly wasm_bindgen__convert__closures_____invoke__h1d4298890ed403dc: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__h1d4298890ed403dc_3: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__h1d4298890ed403dc_4: (a: number, b: number, c: any) => void;
-    readonly wasm_bindgen__convert__closures_____invoke__hf1aa2e30d6244af6: (a: number, b: number) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h5ac19776b512cc80: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h5ac19776b512cc80_3: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__h5ac19776b512cc80_4: (a: number, b: number, c: any) => void;
+    readonly wasm_bindgen__convert__closures_____invoke__hfe8058c2b90685d3: (a: number, b: number) => void;
     readonly __wbindgen_malloc: (a: number, b: number) => number;
     readonly __wbindgen_realloc: (a: number, b: number, c: number, d: number) => number;
     readonly __wbindgen_exn_store: (a: number) => void;
