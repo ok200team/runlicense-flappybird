@@ -1,11 +1,12 @@
 {
   "name": "my-wasm-thingy",
   "type": "module",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "files": [
     "my_wasm_thingy_bg.wasm",
     "my_wasm_thingy.js",
     "my_wasm_thingy.d.ts",
+    "wasm_manifest.json",
     "snippets"
   ],
   "main": "my_wasm_thingy.js",
