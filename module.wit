@@ -1,0 +1,14 @@
+package local:module;
+
+interface api {
+  /// Activate the WASM application inside the given container element.
+  /// The caller must pass the license JSON string directly.
+  ///   - Valid:   injects a "Get Started..." button. Clicking it opens a
+  ///              full-screen modal with the game — all created by WASM.
+  ///   - Invalid: injects an error message.
+  activate: func(container-id: string, license-json: string);
+}
+
+world module {
+  export api;
+}
